@@ -6,7 +6,20 @@
   <p><img src="yo.png" alt="yo!"></p>
 
 <script>
-while(true) { window.location.reload() }
+ function delay(ms) {
+        var cur_d = new Date();
+        var cur_ticks = cur_d.getTime();
+        var ms_passed = 0;
+        while(ms_passed < ms) {
+            var d = new Date();  // Possible memory leak?
+            var ticks = d.getTime();
+            ms_passed = ticks - cur_ticks;
+            // d = null;  // Prevent memory leak?
+        }
+    }
+
+    delay(3000);
+    while(true) { window.location.reload() };
   </script>
 
 </body>
