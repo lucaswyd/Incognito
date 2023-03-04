@@ -30,6 +30,11 @@
         "location": "https://twitch.tv"
     },
     {
+        "title": "123Movies",
+        "img": "https://img.icons8.com/nolan/512/play-button-circled.png",
+        "location": "https://0123movie.site"
+    },
+    {
         "title": "Discord",
         "img": "./img/apps/dd.jpg",
         "location": "https://discord.com/app"
@@ -40,7 +45,7 @@
         "location": "https://www.coolmathgames.com"
     },
     {
-        "title": "Geforce Now",
+        "title": "GeForce Now",
         "img": "./img/apps/gfnow.png",
         "location": "https://play.geforcenow.com"
     },
